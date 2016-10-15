@@ -6,13 +6,16 @@ const gulp = require('gulp'),
     concat = require('gulp-concat'),
     typescript = require('gulp-ts')
       ;
+const paths = {
+  sass: './src/sass/*.sass'
+};
 
 gulp.task('styles', () =>
-  gulp.src('./src/sass/index.sass')
+  gulp.src(paths.sass)
     .pipe(sass({
-      includePaths: ['./src/sass'].concat(neat), 
-    }))
-    .pipe(gulp.dest('./public'))
+      includePaths: ['styles'].concat(neat), 
+    })).on('error', sass.logError)
+    .pipe(gulp.dest('./public/css'))
 );
 
 gulp.task('views',  () => {
