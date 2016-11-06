@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="249px" height="249px" viewBox="0 0 249 249" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>sunny</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="101.5" cy="101.5" r="101.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-23" y="-23" width="249" height="249">
+            <rect x="-23" y="-23" width="249" height="249" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="203" height="203" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sunny" transform="translate(23.000000, 23.000000)">
+            <g transform="translate(101.500000, 101.500000) rotate(-270.000000) translate(-101.500000, -101.500000) ">
+                <use fill="#50E3C2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke-opacity="0.59935462" stroke="#50E3C2" mask="url(#mask-2)" stroke-width="46" stroke-dasharray="3,10" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="54" stroke-dasharray="3,10" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="289px" height="179px" viewBox="0 0 289 179" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>cloudy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M230.123182,62.1512747 C224.121811,50.7269755 212.6231,43 199.423913,43 C185.292031,43 173.109436,51.8575825 167.536107,64.6270674 C163.403555,62.8135411 158.873842,61.8128744 154.123913,61.8128744 C134.725512,61.8128744 119,78.502518 119,99.0902366 C119,119.677955 134.725512,136.367599 154.123913,136.367599 C160.985082,136.367599 180.075774,136.940796 197.763644,135.906101 C212.533712,136.844473 228.673307,136.367599 234.876087,136.367599 C254.274488,136.367599 270,119.677955 270,99.0902366 C270,78.502518 254.274488,61.8128744 234.876087,61.8128744 C233.264117,61.8128744 231.67751,61.9281212 230.123182,62.1512747 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="163" height="105.525952">
+            <rect x="113" y="37" width="163" height="105.525952" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <path d="M134.123182,90.1512747 C128.121811,78.7269755 116.6231,71 103.423913,71 C89.2920306,71 77.1094364,79.8575825 71.5361071,92.6270674 C67.4035545,90.8135411 62.8738422,89.8128744 58.123913,89.8128744 C38.7255115,89.8128744 23,106.502518 23,127.090237 C23,147.677955 38.7255115,164.367599 58.123913,164.367599 C64.9850818,164.367599 84.0757741,164.940796 101.763644,163.906101 C116.533712,164.844473 132.673307,164.367599 138.876087,164.367599 C158.274488,164.367599 174,147.677955 174,127.090237 C174,106.502518 158.274488,89.8128744 138.876087,89.8128744 C137.264117,89.8128744 135.67751,89.9281212 134.123182,90.1512747 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="163" height="105.525952">
+            <rect x="17" y="65" width="163" height="105.525952" fill="white"></rect>
+            <use xlink:href="#path-3" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloudy">
+            <g id="cloudy-copy-2">
+                <use fill="#50E3C2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke="#D8D8D8" mask="url(#mask-2)" stroke-width="12" xlink:href="#path-1"></use>
+            </g>
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <use stroke="#50E3C2" mask="url(#mask-4)" stroke-width="12" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
