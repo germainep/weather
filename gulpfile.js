@@ -4,8 +4,8 @@ const gulp = require('gulp'),
     sass = require('gulp-sass'),
     imagemin = require('gulp-imagemin'),
     concat = require('gulp-concat'),
-    typescript = require('gulp-ts')
-      ;
+    typescript = require('gulp-tsc');
+
 const paths = {
   sass: './src/sass/*.sass'
 };
@@ -26,6 +26,11 @@ gulp.task('views',  () => {
     .pipe(gulp.dest('./public'));
 });
 
+gulp.task('compile', ()=>
+ 		gulp.src('src/*.ts')
+		  .pipe(typescript() )
+		 .pipe(gulp.dest('./public/'))
+		 );
           
 gulp.task('scripts', () =>
          gulp.src('./src/*.js')
@@ -43,4 +48,4 @@ gulp.task('watch', (event) =>
           gulp.watch(['src/sass/**/*.sass', 'src/*.js', 'src/*.pug'],  ['styles', 'scripts', 'views' ])
 );
 
-gulp.task('default', ['styles', 'imagemin', 'scripts', 'views']);
+gulp.task('default', ['styles', 'imagemin', 'compile', 'scripts', 'views']);

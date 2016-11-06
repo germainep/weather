@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
   <script src="index.js"></script>
 </head>
+<body>
+  <div class="zip">
+    <div class="container">
+      <input class="js-zipcode" type="text" placeholder="Enter Your Zip Code">
+      <button class="js-location location disabled"><i class="fa fa-location-arrow fa-lg"></i></button>
+    </div>
+  </div>
+  <h1 class="js-city city"></h1><img class="js-icon icon" src="img/blank.svg">
+  <div class="js-temp temp">--</div>
+  <div class="switch">
+    <input class="checkbox" type="checkbox">
+    <label><i></i></label>
+  </div>
+</body>

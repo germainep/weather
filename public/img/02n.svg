@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="212px" viewBox="0 0 210 212" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>cloudy-night</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M120.882215,129.024121 C114.353794,117.314441 101.845246,109.394444 87.4868829,109.394444 C72.1139136,109.394444 58.8614225,118.473291 52.7986335,131.56176 C48.303153,129.702931 43.3756333,128.677268 38.208557,128.677268 C17.1065537,128.677268 0,145.783821 0,166.885825 C0,187.987828 17.1065537,205.094382 38.208557,205.094382 C45.6722857,205.094382 66.4395563,205.681898 85.6808063,204.621355 C101.748007,205.583168 119.30501,205.094382 126.052529,205.094382 C147.154533,205.094382 164.261086,187.987828 164.261086,166.885825 C164.261086,145.783821 147.154533,128.677268 126.052529,128.677268 C124.298994,128.677268 122.573048,128.795393 120.882215,129.024121 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="176.261086" height="107.862246">
+            <rect x="-6" y="103.394444" width="176.261086" height="107.862246" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloudy-night" transform="translate(6.000000, 0.000000)">
+            <g>
+                <path d="M99.8876567,204.894871 C156.80672,204.894871 202.948737,159.271303 202.948737,102.99178 C202.948737,46.7122567 156.80672,1.08868878 99.8876567,1.08868878 C42.9685936,1.08868878 142.638258,1.08868878 142.638258,102.99178 C142.638258,204.894871 42.9685936,204.894871 99.8876567,204.894871 Z" id="Oval-Copy" stroke="#979797" fill="#50E3C2"></path>
+                <g id="cloudy-copy-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="12" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,10 +1,191 @@
-@import 'bourbon'
-@import 'neat'
-
-$font-color: #333
-$primary-color: #910
+*,
+* :after,
+*:before
+	box-sizing: border-box
+@font-face
+	font-family: "anudrg"
+	src: url("../fonts/anudrg.ttf") format('truetype')
 
 body
-  color: $font-color
-  background-color: $primary-color
-  
+	background: #525252
+	font-size: 16px
+	font-family: "Coiny", cursive
+
+.icon
+	height: 203px
+	width: 203px
+	margin: 1em auto
+	display: block
+	margin: 0 auto
+
+.temp
+	margin: 0.5em auto
+	font-size: 8em
+	text-align: center
+	
+	&::after
+		position: relative
+		content: "\b0"
+		top: -60px
+		font-size: 0.5em
+
+.city
+	font-size: 2.5em
+	text-align: center
+	margin: 25px auto
+
+.zip
+	width: 80%
+	margin: 1em auto
+
+.container
+	margin: 0 auto
+	overflow: hidden
+	width: 100%
+	vertical-align: middle
+	white-space: nowrap
+	
+	input
+		display: inline-block
+		margin: 0 auto
+		border-radius: 0.3em
+		border: none
+		height: 3em
+		width: 100%
+		color: #50E3C2
+		background: #323232
+		padding-left: 1em
+		float: left
+		box-shadow: inset 0 1px 0 rgba(0,0,0,0.4)
+	
+	.location
+		background: #323232
+		border-radius: 0.3em
+		width: 3em
+		height: 3em
+		margin-left: -48px
+		outline: none
+		border: none
+		
+		i
+			color: #50E3C2
+		
+	.disabled
+	
+		i
+			color: #999
+	
+.switch
+	margin: 0.5em  auto 2em auto
+	width: 100px
+	height: 40px
+	//position: relative
+	clear: both
+
+	input
+		position: absolute
+		width: 100%
+		height: 100%
+		z-index: 100
+		opacity: 0
+		cursor: pointer
+	
+	label
+		display: block
+		width: 100%
+		height: 100%
+		position: relative
+		background: #aaa
+		border-radius: 40px
+		box-shadow: inset 0 3px 8px 1px rgba(0,0,0,0.2), 0 1px 0 rgba(255, 255, 255, 0.5)
+	
+		&:after
+			content: '';
+			position: absolute
+			z-index: -1
+			top: -8px; right: -8px; bottom: -8px; left: -8px;
+			border-radius: inherit
+			background: #525252
+			background: linear-gradient(#828282, #525252)
+			box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.25)
+		
+		&:before
+			content: '';
+			position: absolute
+			z-index: -1
+			top: -18px; right: -18px; bottom: -18px; left: -18px;
+			border-radius: inherit
+			background: #eee
+			background: linear-gradient(#525252, #777)
+			box-shadow: 0 1px 0 rgba(255,255,255,0.5)
+			filter: blur(1px)
+	
+		i
+			display: block
+			height: 100%
+			width: 50%
+			position: absolute
+			top: 0
+			left: 0
+			z-index: 2
+			border-radius: inherit
+			background: #b2ac9e
+			background: linear-gradient(#a7a2a6, #444)
+			box-shadow: inset 0 1px 0 grey, 0 0 8px rgba(0,0,0,0.3), 0 5px 5px rgba(0,0,0,0.2)
+	
+			&:after
+				content: '';
+				position: absolute
+				left: 15%
+				top: 25%
+				width: 70%
+				height: 50%
+				background: #777
+				background: linear-gradient(#444, #777)
+				border-radius: inherit
+	
+			&:before
+				content: "F";
+				position: absolute
+				top: 56%
+				right: -60%
+				margin-top: -12px
+				color: #666
+				color: rgba(0,0,0,0.4)
+				font-style: normal
+				font-weight: bold
+				text-transform: uppercase
+				text-shadow: 0 1px 0 #bcb8ae, 0 -1px 0 #97958e
+	
+	input
+		&:checked ~ label
+			background: #50E3C2
+	
+			i
+				left: auto
+				right: -1%
+		
+				&:before
+					content: "C"
+					right: 160%
+					color: #1a9e81
+					text-shadow: 0 1px 0 #73e8cf, 0 -1px 0 #0e5848
+		
+@media screen and (min-width: 786px) 
+	.switch
+		
+	.icon
+		height: 300px
+		width: 300px
+		display: block
+		margin: 0 10% 0 10%
+		float: left
+
+	.temp
+		display: inline-block
+		margin: 0 10% 0 10%
+		font-size: 15em
+		height: 300px
+		width: 300px
+		float: left
+		vertical-align: middle

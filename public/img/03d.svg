@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="301px" height="191px" viewBox="0 0 301 191" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>cloudy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M212.679467,36.6537642 C201.193401,14.7887146 179.185933,0 153.923913,0 C126.8768,0 103.560445,16.9525916 92.8936089,41.3922018 C84.9842865,37.9212806 76.314837,36.0060974 67.223913,36.0060974 C30.097171,36.0060974 0,67.9485278 0,107.351513 C0,146.754497 30.097171,178.696928 67.223913,178.696928 C80.3555539,178.696928 116.893369,179.793975 150.746312,177.813663 C179.014853,179.609621 209.904541,178.696928 221.776087,178.696928 C258.902829,178.696928 289,146.754497 289,107.351513 C289,67.9485278 258.902829,36.0060974 221.776087,36.0060974 C218.690927,36.0060974 215.654308,36.226669 212.679467,36.6537642 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="301" height="191">
+            <rect x="-6" y="-6" width="301" height="191" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cloudy" transform="translate(6.000000, 6.000000)">
+            <g>
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <use stroke="#50E3C2" mask="url(#mask-2)" stroke-width="12" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
