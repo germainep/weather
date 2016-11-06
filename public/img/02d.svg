@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="285px" height="232px" viewBox="0 0 285 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>partly cloudy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="145.195067" cy="92.396861" rx="92.396861" ry="92.396861"></ellipse>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-23" y="-23" width="230.793722" height="230.793722">
+            <rect x="29.7982063" y="-23" width="230.793722" height="230.793722" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="184.793722" height="184.793722" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M233.719833,24.688136 C227.931085,14.3051683 216.839761,7.28251121 204.108208,7.28251121 C190.477004,7.28251121 178.726027,15.3327198 173.350155,26.9382586 C169.364014,25.2900363 164.994785,24.380581 160.413141,24.380581 C141.702005,24.380581 126.533632,39.5489537 126.533632,58.2600897 C126.533632,76.9712257 141.702005,92.1395984 160.413141,92.1395984 C167.031225,92.1395984 185.445554,92.6605486 202.506761,91.720166 C216.75354,92.5730053 232.321326,92.1395984 238.304348,92.1395984 C257.015484,92.1395984 272.183857,76.9712257 272.183857,58.2600897 C272.183857,39.5489537 257.015484,24.380581 238.304348,24.380581 C236.749489,24.380581 235.219094,24.485323 233.719833,24.688136 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="157.650224" height="97.0010059">
+            <rect x="120.533632" y="1.28251121" width="157.650224" height="97.0010059" fill="white"></rect>
+            <use xlink:href="#path-4" fill="black"></use>
+        </mask>
+        <path d="M107.186201,134.836118 C101.397453,124.45315 90.3061292,117.430493 77.5745759,117.430493 C63.9433717,117.430493 52.1923944,125.480702 46.8165224,137.086241 C42.830382,135.438018 38.4611526,134.528563 33.8795087,134.528563 C15.1683727,134.528563 0,149.696936 0,168.408072 C0,187.119208 15.1683727,202.28758 33.8795087,202.28758 C40.4975932,202.28758 58.9119218,202.808531 75.9731288,201.868148 C90.219908,202.720987 105.787694,202.28758 111.770716,202.28758 C130.481852,202.28758 145.650224,187.119208 145.650224,168.408072 C145.650224,149.696936 130.481852,134.528563 111.770716,134.528563 C110.215857,134.528563 108.685461,134.633305 107.186201,134.836118 Z" id="path-6"></path>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="157.650224" height="97.0010059">
+            <rect x="-6" y="111.430493" width="157.650224" height="97.0010059" fill="white"></rect>
+            <use xlink:href="#path-6" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="partly-cloudy" transform="translate(6.000000, 23.000000)">
+            <g>
+                <g id="sun-copy" transform="translate(145.195067, 92.396861) rotate(-270.000000) translate(-145.195067, -92.396861) ">
+                    <use fill="#50E3C2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use stroke-opacity="0.598109149" stroke="#50E3C2" mask="url(#mask-2)" stroke-width="46" stroke-dasharray="3,10" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-3)" stroke-width="54" stroke-dasharray="3,10" xlink:href="#path-1"></use>
+                </g>
+                <g id="cloudy-copy">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-5)" stroke-width="12" xlink:href="#path-4"></use>
+                </g>
+                <g id="cloudy-copy-2">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    <use stroke="#FFFFFF" mask="url(#mask-7)" stroke-width="12" xlink:href="#path-6"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

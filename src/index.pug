@@ -1,0 +1,27 @@
+doctype html
+head
+	meta(name='viewport' content='width=device-width, initial-scale=1' )
+	link(href='css/normalize.css' rel='stylesheet')
+	link(href='css/reset.css' rel='stylesheet')
+	link(href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet")
+	link(href='css/styles.css' rel="stylesheet")
+	link(href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet")
+
+	script(src='index.js')
+
+body
+
+	.zip
+		.container
+			input(type="text" class="js-zipcode" placeholder="Enter Your Zip Code")
+			button.js-location.location.disabled
+				i.fa.fa-location-arrow.fa-lg
+	h1.js-city.city
+	
+	img(src='img/blank.svg').js-icon.icon
+	.js-temp.temp --
+
+	.switch
+		input(type="checkbox").checkbox
+		label
+			i
