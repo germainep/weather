@@ -19,6 +19,9 @@ body {
   display: block;
   margin: 0 auto; }
 
+.flex {
+  display: flex; }
+
 .temp {
   margin: 0.5em auto;
   font-size: 8em;
@@ -163,14 +166,10 @@ body {
   .icon {
     height: 300px;
     width: 300px;
-    display: block;
-    margin: 0 10% 0 10%;
-    float: left; }
+    display: block; }
   .temp {
     display: inline-block;
-    margin: 0 10% 0 10%;
     font-size: 15em;
     height: 300px;
     width: 300px;
-    float: left;
     vertical-align: middle; } }
