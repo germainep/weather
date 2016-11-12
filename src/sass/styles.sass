@@ -2,15 +2,15 @@
 * :after,
 *:before
 	box-sizing: border-box
-@font-face
-	font-family: "anudrg"
-	src: url("../fonts/anudrg.ttf") format('truetype')
 
 body
 	background: #525252
 	font-size: 16px
 	font-family: "Coiny", cursive
 
+.flex
+	display: flex
+	
 .icon
 	height: 203px
 	width: 203px
@@ -22,7 +22,7 @@ body
 	margin: 0.5em auto
 	font-size: 8em
 	text-align: center
-	
+
 	&::after
 		position: relative
 		content: "\b0"
@@ -44,7 +44,7 @@ body
 	width: 100%
 	vertical-align: middle
 	white-space: nowrap
-	
+
 	input
 		display: inline-block
 		margin: 0 auto
@@ -57,7 +57,7 @@ body
 		padding-left: 1em
 		float: left
 		box-shadow: inset 0 1px 0 rgba(0,0,0,0.4)
-	
+
 	.location
 		background: #323232
 		border-radius: 0.3em
@@ -66,15 +66,15 @@ body
 		margin-left: -48px
 		outline: none
 		border: none
-		
+
 		i
 			color: #50E3C2
-		
+
 	.disabled
-	
+
 		i
 			color: #999
-	
+
 .switch
 	margin: 0.5em  auto 2em auto
 	width: 100px
@@ -89,7 +89,7 @@ body
 		z-index: 100
 		opacity: 0
 		cursor: pointer
-	
+
 	label
 		display: block
 		width: 100%
@@ -98,7 +98,7 @@ body
 		background: #aaa
 		border-radius: 40px
 		box-shadow: inset 0 3px 8px 1px rgba(0,0,0,0.2), 0 1px 0 rgba(255, 255, 255, 0.5)
-	
+
 		&:after
 			content: '';
 			position: absolute
@@ -108,7 +108,7 @@ body
 			background: #525252
 			background: linear-gradient(#828282, #525252)
 			box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.25)
-		
+
 		&:before
 			content: '';
 			position: absolute
@@ -119,7 +119,7 @@ body
 			background: linear-gradient(#525252, #777)
 			box-shadow: 0 1px 0 rgba(255,255,255,0.5)
 			filter: blur(1px)
-	
+
 		i
 			display: block
 			height: 100%
@@ -132,7 +132,7 @@ body
 			background: #b2ac9e
 			background: linear-gradient(#a7a2a6, #444)
 			box-shadow: inset 0 1px 0 grey, 0 0 8px rgba(0,0,0,0.3), 0 5px 5px rgba(0,0,0,0.2)
-	
+
 			&:after
 				content: '';
 				position: absolute
@@ -143,7 +143,7 @@ body
 				background: #777
 				background: linear-gradient(#444, #777)
 				border-radius: inherit
-	
+
 			&:before
 				content: "F";
 				position: absolute
@@ -156,36 +156,32 @@ body
 				font-weight: bold
 				text-transform: uppercase
 				text-shadow: 0 1px 0 #bcb8ae, 0 -1px 0 #97958e
-	
+
 	input
 		&:checked ~ label
 			background: #50E3C2
-	
+
 			i
 				left: auto
 				right: -1%
-		
+
 				&:before
 					content: "C"
 					right: 160%
 					color: #1a9e81
 					text-shadow: 0 1px 0 #73e8cf, 0 -1px 0 #0e5848
-		
-@media screen and (min-width: 786px) 
+
+@media screen and (min-width: 786px)
 	.switch
-		
+
 	.icon
 		height: 300px
 		width: 300px
 		display: block
-		margin: 0 10% 0 10%
-		float: left
 
 	.temp
 		display: inline-block
-		margin: 0 10% 0 10%
 		font-size: 15em
 		height: 300px
 		width: 300px
-		float: left
 		vertical-align: middle
